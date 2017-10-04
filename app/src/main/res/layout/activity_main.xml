@@ -1,19 +1,120 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<AbsoluteLayout  xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.mingbai.mingpomodoro.MainActivity">
 
-    <TextView
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="140dp"
+        android:layout_height="61dp"
+        android:layout_x="123dp"
+        android:layout_y="143dp"
+        android:hint="00:00"
+        android:textAlignment="center"
+        android:ems="10"
+        android:inputType="time"
+        tools:layout_editor_absoluteX="131dp"
+        tools:layout_editor_absoluteY="154dp" />
+
+    <Button
+        android:id="@+id/button4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello Ming"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:layout_x="20dp"
+        android:layout_y="448dp"
+        android:text="四十分"
+        tools:layout_editor_absoluteX="42dp"
+        tools:layout_editor_absoluteY="414dp" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="146dp"
+        android:layout_y="448dp"
+        android:text="一小时"
+        tools:layout_editor_absoluteX="159dp"
+        tools:layout_editor_absoluteY="414dp" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="260dp"
+        android:layout_y="448dp"
+        android:text="两小时"
+        tools:layout_editor_absoluteX="268dp"
+        tools:layout_editor_absoluteY="414dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="20dp"
+        android:layout_y="381dp"
+        android:text="十分钟"
+        tools:layout_editor_absoluteX="42dp"
+        tools:layout_editor_absoluteY="330dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="146dp"
+        android:layout_y="381dp"
+        android:text="二十分"
+        tools:layout_editor_absoluteX="159dp"
+        tools:layout_editor_absoluteY="330dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="260dp"
+        android:layout_y="381dp"
+        android:text="三十分"
+        tools:layout_editor_absoluteX="260dp"
+        tools:layout_editor_absoluteY="330dp" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="81dp"
+        android:layout_height="33dp"
+        android:layout_x="-10dp"
+        android:layout_y="-6dp"
+        android:text="重置"
+        tools:layout_editor_absoluteX="3dp"
+        tools:layout_editor_absoluteY="4dp" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="75dp"
+        android:layout_height="35dp"
+        android:layout_x="299dp"
+        android:layout_y="-3dp"
+        android:text="设置"
+        tools:layout_editor_absoluteX="302dp"
+        tools:layout_editor_absoluteY="4dp" />
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="44dp"
+        android:layout_y="243dp"
+        android:text="GO" />
+
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="255dp"
+        android:layout_y="238dp"
+        android:text="STOP" />
 
 
-</android.support.constraint.ConstraintLayout>
+</AbsoluteLayout >
