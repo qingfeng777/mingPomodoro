@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <AbsoluteLayout  xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.mingbai.mingpomodoro.MainActivity">
 
 
-    <EditText
-        android:id="@+id/editText"
+    <TextView
+        android:id="@+id/textView"
         android:layout_width="140dp"
         android:layout_height="61dp"
         android:layout_x="123dp"
@@ -21,7 +20,7 @@
         tools:layout_editor_absoluteY="154dp" />
 
     <Button
-        android:id="@+id/button4"
+        android:id="@+id/fortyButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_x="20dp"
@@ -31,7 +30,7 @@
         tools:layout_editor_absoluteY="414dp" />
 
     <Button
-        android:id="@+id/button5"
+        android:id="@+id/oneHourButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_x="146dp"
@@ -41,7 +40,7 @@
         tools:layout_editor_absoluteY="414dp" />
 
     <Button
-        android:id="@+id/button6"
+        android:id="@+id/twoHourButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_x="260dp"
@@ -51,7 +50,7 @@
         tools:layout_editor_absoluteY="414dp" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/tenButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_x="20dp"
@@ -61,7 +60,7 @@
         tools:layout_editor_absoluteY="330dp" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/twentyButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_x="146dp"
@@ -71,7 +70,7 @@
         tools:layout_editor_absoluteY="330dp" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/thirtyButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_x="260dp"
@@ -81,7 +80,7 @@
         tools:layout_editor_absoluteY="330dp" />
 
     <Button
-        android:id="@+id/button7"
+        android:id="@+id/resetTimeBtn"
         android:layout_width="81dp"
         android:layout_height="33dp"
         android:layout_x="-10dp"
@@ -91,7 +90,7 @@
         tools:layout_editor_absoluteY="4dp" />
 
     <Button
-        android:id="@+id/button8"
+        android:id="@+id/setButton"
         android:layout_width="75dp"
         android:layout_height="35dp"
         android:layout_x="299dp"
@@ -101,7 +100,7 @@
         tools:layout_editor_absoluteY="4dp" />
 
     <Button
-        android:id="@+id/button9"
+        android:id="@+id/startButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_x="44dp"
@@ -109,7 +108,7 @@
         android:text="GO" />
 
     <Button
-        android:id="@+id/button10"
+        android:id="@+id/stopButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_x="255dp"
